@@ -14,7 +14,7 @@ export default function Button(props: Props) {
     <TouchableOpacity 
         onPress={onPress}
         className='rounded-xl h-12 justify-center items-center'
-     style={{backgroundColor: color }}
+        style={{backgroundColor: color }}
      >
       <Text className='color-white font-bold w-2/3 h-2/3 align-middle text-center'>{title}</Text>
     </TouchableOpacity>
